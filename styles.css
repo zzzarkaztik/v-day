@@ -38,7 +38,8 @@ body {
 }
 
 .envelope:before {
-  background-color: #dfdfdf;
+  background-color: #fdd0ce; /* Lighter gray shade */
+
   content: "";
   position: absolute;
   width: 212px;
@@ -55,8 +56,8 @@ body {
   height: 170px;
   top: 5px;
   left: 15px;
-  box-shadow: -5px -5px 100px rgba(0, 0, 0, 0.4);
-  background-color: #f8e5d0; /* A softer background */
+  background-color: #ffe0cc;
+  box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 10px; /* Rounded corners */
 }
 
@@ -83,7 +84,7 @@ body {
 }
 
 .heart {
-  background-color: #d62828;
+  background-color: #eb6165;
   display: inline-block;
   height: 30px;
   margin: 0 10px;
@@ -123,7 +124,7 @@ body {
 .three,
 .four,
 .five {
-  background-color: red;
+  background-color: #eb6165;
   display: inline-block;
   height: 10px;
   margin: 0 10px;
@@ -207,7 +208,7 @@ body {
 
 .front {
   position: absolute;
-  border-right: 180px solid #ebbdab; /* Muted pink color */
+  border-right: 180px solid #f8bdbe;
   border-top: 95px solid transparent;
   border-bottom: 100px solid transparent;
   left: 120px;
@@ -220,7 +221,7 @@ body {
 .front:before {
   position: absolute;
   content: "";
-  border-left: 300px solid #f8ad9d;
+  border-left: 300px solid #f29c98;
   border-top: 195px solid transparent;
   left: -120px;
   top: -95px;
@@ -233,7 +234,7 @@ body {
   width: 330px;
   height: 25px;
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
   top: 265px;
   left: -15px;
   animation: scale 3s linear infinite;
@@ -257,10 +258,10 @@ body {
 }
 
 .letter {
-  background-color: #fcf7eb; /* Soft, creamy background */
   padding: 2em; /* Padding adapts to the font-size */
   border-radius: 12px; /* Gently rounded corners */
-  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+  background-color: #fff9f1;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
   max-width: 550px; /* Sets maximum width for readability */
   margin: 30px auto; /* Centers the letter horizontally */
   font-family: "Protest Riot";
@@ -284,7 +285,7 @@ body {
 .greeting {
   font-family: "Great Vibes", cursive; /* Handwritten-style font for warmth */
   font-size: 32px; /* Prominent greeting size */
-  color: #d96a6a; /* A warm, muted red */
+  color: #d06675;
   margin-bottom: 20px; /* Space between greeting and body */
 }
 
